@@ -1,0 +1,13 @@
+name: mediapipe-gaze
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pip:
+      - mediapipe
+      - opencv-python
+      - pygame
+      - Tkinter 
